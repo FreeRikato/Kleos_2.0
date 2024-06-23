@@ -343,36 +343,32 @@ def main():
     )
     workflow.add_edge("task_elaborate_append", END)
     app = workflow.compile()
+#     inp = """
+#     Here is a job overview that i had applied:
+#     In this role you will be involved in the full software development lifecycle. You will be involved in both the frontend and backend, supporting their day to day C# development, debugging, researching and testing.
+
+# The ideal Software Developer will have experience in C# .NET and have knowledge of both the frontend and backend.
+
+# The Role
+
+#     C# .NET development background
+#     Full software development lifecycle
+#     Frontend and Backend
+
+# The Person
+
+#     Background in software development
+#     Experience with C# .NET
+#     Hybrid setup, commutable 2 days a week to Weedon Bec
+
+
+#     Keywords: Software Engineer, Software Developer, JavaScript Software Engineer, C#, .NET, Software, JavaScript, Go, MySQL, SQL, Full-Stack, Full Stack, FullStack, Software House, Golang, Weedon Bec, Northampton
+
+#     For the above overview, I want to do a project to get proficient on the listed requisites above
+#     """
     inp = """
-    Here is a job overview that i had applied:
-    Responsibilities:
-
-        Design and develop machine learning models
-        Preprocess and analyze large datasets
-        Implement and optimize algorithms for performance and scalability
-        Fine-tune large language models (LLMs) for specific applications
-        Manage and analyze big data to derive insights and improve models
-        Collaborate with cross-functional teams to integrate AI solutions
-        Stay up-to-date with the latest advancements in AI and ML technologies
-
-    Requirements
-
-    Requirements:
-
-        Bachelor's or Master's degree in Computer Science, Data Science, or a related field
-        Proficiency in Python and ML frameworks such as TensorFlow, PyTorch, or scikit-learn
-        Experience with data preprocessing and feature engineering
-        Strong understanding of machine learning algorithms and techniques
-        Proven experience in fine-tuning large language models
-        Experience with big data tools and technologies (e.g., Hadoop, Spark)
-        Excellent problem-solving and analytical skills
-
-
-
-
-    For the above overview, I want to do a project to get proficient on the listed requisites above
-    """
-
+        I am studying React frontend library, I feel doing projects will help me learn faster. Give me a toy project so that i can practice and learn all the React fundamentals
+        """
 
     inputs = {"user_input": inp, "number_of_steps": 0, "number_of_tasks_finished": 0, "task_elaboration": [], "self_reflection_score": 0}
 

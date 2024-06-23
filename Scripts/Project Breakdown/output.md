@@ -1,0 +1,14 @@
+Finished running: outline_of_the_project:
+Finished running: breakdown_project_into_tasks:
+Finished running: task_elaborate_append:
+Finished running: task_elaborate_append:
+Finished running: task_elaborate_append:
+Finished running: task_elaborate_append:
+Finished running: task_elaborate_append:
+Finished running: task_elaborate_append:
+Finished running: task_elaborate_append:
+Finished running: task_elaborate_append:
+Finished running: task_elaborate_append:
+Finished running: task_elaborate_append:
+Finished running: task_elaborate_append:
+Finished running: task_elaborate_append:

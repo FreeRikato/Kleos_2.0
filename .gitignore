@@ -1,1 +1,4 @@
 .Kleos
+.gitignore
+.venv
+node_modules
